@@ -1,0 +1,28 @@
+{
+  "name": "matrix",
+  "version": "0.1.0",
+  "description": "Matrix library in JavaScript",
+  "main": "lib/",
+  "scripts": {
+    "test": "eslint *.js && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/matrix.git"
+  },
+  "keywords": [
+    "matrix"
+  ],
+  "author": "Aliaksei Chapyzhenka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/matrix/issues"
+  },
+  "homepage": "https://github.com/drom/matrix#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  }
+}
