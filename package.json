@@ -4,7 +4,7 @@
   "description": "Matrix library in JavaScript",
   "main": "lib/",
   "scripts": {
-    "test": "eslint *.js && mocha test"
+    "test": "eslint lib/*.js && mocha test"
   },
   "repository": {
     "type": "git",
