@@ -2,10 +2,13 @@
 
 Matrix library in JavaScript
 
-## API
+## Use
 
 ```js
-var mx = matrix(stdlib, foreign, heap);
+var matrix = require('matrix.drom');
+var heap = new ArrayBuffer(0x10000);
+var stdlib = { Math: Math };
+var m = matrix(stdlib, null, heap);
 ```
 
 ### mx.uniqueCols(mx, geometry)
