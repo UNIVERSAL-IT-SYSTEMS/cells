@@ -1,14 +1,14 @@
-# Matrix
+# cells
 
 Matrix library in JavaScript
 
 ## Use
 
 ```js
-var matrix = require('matrix.drom');
+var cells = require('cells.drom');
 var heap = new ArrayBuffer(0x10000);
 var stdlib = { Math: Math };
-var m = matrix(stdlib, null, heap);
+var mx = cells(stdlib, null, heap);
 ```
 
 ### mx.uniqueCols(mx, geometry)
